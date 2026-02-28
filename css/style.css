@@ -238,6 +238,15 @@ a:hover {
   margin: 0;
 }
 
+.btn-card-action {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.4rem;
+  min-height: 44px;
+  line-height: 1.2;
+}
+
 /* ===== CTA SECTION ===== */
 .cta-section {
   background: var(--dark);
@@ -294,12 +303,15 @@ a:hover {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .stat-number {
+    font-size: 2rem;
+  }
 }
 
 /* ===== TESTIMONIALS ===== */
 .testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.5rem;
   margin-top: 3rem;
 }
