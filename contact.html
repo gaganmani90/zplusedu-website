@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – ZPlusEdu</title>
+  <meta name="description" content="Get in touch with ZPlusEdu. Reach us via email, Facebook, or Instagram." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-brand">Z<span>Plus</span>Edu</a>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you</p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div>
+          <p class="section-label">Reach Out</p>
+          <h2>Let's Connect</h2>
+          <p>Whether you're a student looking for guidance, a professional navigating a career shift, or just curious about ZPlusEdu — we're here for you.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <p>Email</p>
+              <a href="mailto:zplusedu@gmail.com">zplusedu@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">f</div>
+            <div>
+              <p>Facebook</p>
+              <a href="https://www.facebook.com/zplusedu/" target="_blank" rel="noopener">facebook.com/zplusedu</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📷</div>
+            <div>
+              <p>Instagram</p>
+              <a href="https://www.instagram.com/zplusedu/" target="_blank" rel="noopener">@zplusedu</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <form action="mailto:zplusedu@gmail.com" method="post" enctype="text/plain">
+
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option value="">Select a topic...</option>
+                <option value="mentorship">Mentorship Inquiry</option>
+                <option value="booking">Booking a Session</option>
+                <option value="general">General Question</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; border:none;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.facebook.com/zplusedu/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/zplusedu/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:zplusedu@gmail.com">Email</a>
+    </div>
+    <p>&copy; 2026 ZPlusEdu. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
