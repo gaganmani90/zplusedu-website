@@ -121,6 +121,40 @@ a:hover {
   opacity: 0.9;
 }
 
+.hero-tagline {
+  font-size: 1.05rem;
+  font-weight: 400;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  margin: 0 auto 2rem;
+  max-width: 620px;
+  color: var(--white);
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255,255,255,0.7);
+}
+
+.btn-outline:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--white);
+  border-color: var(--white);
+}
+
 .btn {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -575,6 +609,7 @@ footer a {
 @media (max-width: 767px) {
   .hero h1 { font-size: 2rem; }
   .hero p { font-size: 1rem; }
+  .hero-buttons { flex-direction: column; align-items: center; }
 
   .nav-links {
     display: none;
